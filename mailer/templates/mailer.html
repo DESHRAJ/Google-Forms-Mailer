@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mailer</title>
+</head>
+<body>
+	<h2>Just upload the udpated Google Form Sheet </h2>
+	<form action="." method="post", enctype="multipart/form-data">
+		{% csrf_token %}
+		<input	type = "file" >
+		<input type = "submit" value="Submit Form">	
+	</form>
+</body>
+</html>
